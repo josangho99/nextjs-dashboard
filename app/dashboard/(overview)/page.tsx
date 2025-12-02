@@ -5,6 +5,11 @@ import { Suspense } from "react";
 import { CardsSkeleton, RevenueChartSkeleton } from "@/app/ui/skeletons";
 import { LatestInvoicesSkeleton } from "@/app/ui/skeletons";
 import CardWrapper from "@/app/ui/dashboard/cards";
+import { Metadata } from "next";
+
+export const metadata: Metadata = {
+  title: "DashBoard",
+};
 
 export default async function Page() {
   return (
